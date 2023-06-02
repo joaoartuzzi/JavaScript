@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registro de visitas</h1>
+    <button onclick="botao1()">Cadastrar nova pessoa</button>
+    <p id="Nomes">Pessoas que passararm por aqui:</p>
+</body>
+    <script>
+        
+        function botao1() {
+            var nome = prompt ("Nome da nova pessoa")
+            document.getElementById("Nomes").innerHTML +=
+            `<br> 👍 Acbou de cadastrar <strong> ${nome} </strong> no sistema`
+        }
+        
+    </script>
+</html>

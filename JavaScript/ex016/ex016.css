@@ -1,0 +1,15 @@
+body{
+    background-color: blue;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+div{
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    text-align: center;
+}
+h1{
+    color: white;
+}
